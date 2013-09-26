@@ -1,0 +1,32 @@
+File Archive Program Open Specification
+
+I am proposing a program designed to archive multiple files/directories, compress that data, and offer low-level encryption to users of the software.
+
+This will be a stand-alone program designed primarily as an educational exercise with an emphasis on software engineering, but it could potentially be used as a free alternative to other commercially available archive programs.  This program is a command-line tool; users are expected to be able to have some level of proficiency in navigating through a command-line interface. 
+
+Description of archival tool:
+Allow users to:
+1.	Specify a name for archive to be created. 
+2.	Archive a selected file/folder
+3.	Query an existing archive for a list of files within the archive. 
+4.	Unarchive files within an existing archive to the current or user- specified directory. 
+5.	Add and remove files from an existing archive.
+
+The archival tool allows multiple files to be packaged into a single file – this is particularly useful when dealing with large directories or managing loose files for the purpose of storage or portability.  
+
+Description of compression tool:
+Allow users to:
+1.	Choose from three compression modes:
+a.	fast (no compression)
+b.	moderate (quick algorithm) (default)
+c.	slower (algorithm providing best compression)
+2.	Decompress compresses archives. 
+
+The compression tool analyzes an existing or recently created archive and implements a lossless compression algorithm.  The compression of the file allows for further increases in the storage and portability of files/directories.
+
+
+Scheduling:
+User interface and archival tool will be given basic form and functionality.  Following this the compression tool will be created and refined.  Having completed the compression tool the user interface and archival tool will be further improved.  The program will be further refined and brought toward its final state.  I expect this project will take about a semester to complete.
+
+General comments:
+This is an early stage specification of the program, describing the basic functions to be implemented – features may be added as more possibilities are explored.
